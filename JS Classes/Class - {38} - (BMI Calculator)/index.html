@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Class - {38} - (BMI Calculator)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>JavaScript Class - 38</h1>
+    <div class="card w-75 m-auto">
+        <div class="card-header text-center bg-primary text-white">BMI Calculator</div>
+        <div class="card-body text-center m-auto">
+            <form onsubmit="return false">
+                <div class="form-group form-inline">
+                    <label>Weight</label>
+                    <span class="pl-5 pr-5">:-</span>
+                    <input type="text" name="" class="form-control text-center" id="weight" required placeholder="Weight in Kg">
+                    <span class="pl-2">Kg</span>
+                </div>
+                <div class="form-group form-inline">
+                    <label>Height:</label>
+                    <span class="pl-5 pr-5">:-</span>
+                    <input type="text" name="" class="form-control text-center" id="height" required placeholder="Height in Ft">
+                    <span class="pl-2">Ft</span>
+                </div>
+                <div class="form-group form-inline">
+                    <label>BMI Value:</label>
+                    <span class="pl-4 pr-5">:-</span>
+                    <input type="number" name="" class="form-control text-center" id="bmi">
+                </div>
+                <div>
+                    <button  class="btn btn-primary w-50" onclick="bmiValue()">Check BMI</button>
+                </div>
+            </form>
+        </div>
+        <div class="card-footer text-center text-white bg-success">A healthy BMI ranges between 19 and 25.</div>
+    </div>
+
+    <script type="text/javascript" src="style.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
